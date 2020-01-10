@@ -1,0 +1,148 @@
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  /*****100% = 1(r)em = 16px****/
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-color: #EAF6F6;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 5%;
+  margin: 100px auto 100px auto;
+}
+
+.topcontainer {
+  background-color: #e3fdfd;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middlecontainer {}
+
+.bottomcontainer {
+  margin-top: 50px;
+background-color: #66bfbf;
+height: 100px;
+padding: 50px;
+
+}
+
+.topcloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottomcloud {
+  bottom: 300px;
+  left: 300px;
+  position: absolute;
+}
+
+.subtitle {
+  font-weight: normal;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+  overflow: hidden
+}
+
+.profilepic {
+  margin: 50px auto auto;
+}
+
+.bio {
+  color: #40514E;
+  width: 25%;
+  margin: auto auto 50px auto;
+  line-height: 2;
+  font-weight: bold;
+}
+
+.pen-img {
+  float: left;
+  margin: 0 30px 0 0;
+  width: 15%;
+}
+
+.data-img {
+  float: right;
+  margin: 0 0 0 30px;
+  width: 15%;
+}
+
+.skilltitle {
+  margin: 0 auto;
+}
+
+.design-skill-description {
+}
+
+.data-skill-description {}
+
+
+.footer-link {
+  color: #11999E;
+  text-decoration: none;
+font-weight: bold;
+margin: 0 40px 0 40px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-weight: bold;
+margin-top: 35px
+}
+
+.btn {
+	box-shadow: 0 1px 0 0 #f0f7fa;
+	background:linear-gradient(to bottom, #7bd1d1 5%, #5cb8b8 100%);
+	background-color:#7bd1d1;
+	border-radius:9px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 34px;
+	text-decoration:none;
+  margin: 20px auto auto auto;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #5cb8b8 5%, #7bd1d1 100%);
+	background-color:#5cb8b8;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
